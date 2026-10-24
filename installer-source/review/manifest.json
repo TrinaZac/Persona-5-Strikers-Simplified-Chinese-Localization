@@ -1,0 +1,71 @@
+{
+  "Format": 1,
+  "ModId": "p5s-simplified-chinese",
+  "Version": "1.0.0",
+  "Date": "2026-10-24",
+  "Game": "Persona 5 Strikers",
+  "SteamAppId": 1382330,
+  "SteamBuildId": "20427252",
+  "SteamDepotManifest": "541657970914493992",
+  "Language": "tchinese",
+  "Files": [
+    {
+      "Path": "data/motor_rsc/RRPreview.rdb",
+      "BeforeBytes": 1863832,
+      "AfterBytes": 1863832,
+      "BeforeSHA256": "c4abb936a4ebaf1482fec63b61d8aee8572874d1668cef82487cea28fa71533f",
+      "AfterSHA256": "48c4fb1dcbc7fead07944de27063c3a0eaacde58ecece6d9248692bcc069e3ad",
+      "Delta": "patches/00.p5sd.gz",
+      "DeltaSHA256": "10d740944300a63c241abee297e92e45822e867ef56bedd6f220ca41931ea90c",
+      "DeltaBytes": 137,
+      "Records": 1
+    },
+    {
+      "Path": "data/motor_rsc/RRPreview.rdb.bin",
+      "BeforeBytes": 1690326278,
+      "AfterBytes": 1693610468,
+      "BeforeSHA256": "d2f2b3ec670745e4cebba85bae4346a7c9924b8852e802d0871eff9a638776f5",
+      "AfterSHA256": "b09447aa85851c55bcf8f69ff0eebb685400309c9c7ebe2355926b3879d4bb6f",
+      "Delta": "patches/01.p5sd.gz",
+      "DeltaSHA256": "e642911afbfb3f966aa2f5921c887138cdf1b05dbfb2f843a33cab11d287715f",
+      "DeltaBytes": 14576901,
+      "Records": 226
+    },
+    {
+      "Path": "data/motor_rsc/ScreenLayout.rdb.bin",
+      "BeforeBytes": 344580174,
+      "AfterBytes": 344580174,
+      "BeforeSHA256": "c31abaf1df6a459144c9c25d7c4cadd45a2c3ff1e5808d517177039645206869",
+      "AfterSHA256": "1dbec7d32776c7963faf5545c5ecbc6571d117e9d742eb1ff30eafc91e6f62a4",
+      "Delta": "patches/02.p5sd.gz",
+      "DeltaSHA256": "108ebd9919c81326575de7920d5230240e1706587fe3439a237dbadf502ee7f3",
+      "DeltaBytes": 3522733,
+      "Records": 73
+    },
+    {
+      "Path": "data/pd_ww/LINKDATA.BIN",
+      "BeforeBytes": 59823872,
+      "AfterBytes": 59823872,
+      "BeforeSHA256": "2c9255006d4889b29c94dcb4dc50392f94c1a37e2d02223d8828811a42d7e272",
+      "AfterSHA256": "4506b0b3b3955b6bfe23dabb5fb366d68d5d2a8b000a43623337411c87d0cbf0",
+      "Delta": "patches/03.p5sd.gz",
+      "DeltaSHA256": "b33200133e71e05942024b3e52e928da0a8b5c26f8d9af24ab76147351f0a7a8",
+      "DeltaBytes": 32370,
+      "Records": 344
+    }
+  ],
+  "Protected": [
+    {
+      "Path": "data/motor_rsc/ScreenLayout.rdb",
+      "SHA256": "63b0f38c28d8f07e9a61a494ae894598289853e02ddb7f406e1d23a7ff9b66d4",
+      "Bytes": 380492
+    },
+    {
+      "Path": "game.exe",
+      "SHA256": "09058e9d1d810503736b54abf8003f6cf118023ee94da9b956dff02c652a4e7e",
+      "Bytes": 450178768
+    }
+  ],
+  "RequiredFreeBytes": 4733343414,
+  "RuntimeAcceptance": "The author accepted the installed C-weight font and independent daytime star fix on 2026-10-24."
+}

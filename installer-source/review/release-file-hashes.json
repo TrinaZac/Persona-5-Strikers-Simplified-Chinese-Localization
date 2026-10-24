@@ -1,0 +1,75 @@
+{
+  "mod_url": "https://www.nexusmods.com/persona5strikers/mods/16",
+  "release_zip": "P5S Simplified Chinese.zip",
+  "release_zip_sha256": "0f5faafbe5f8ea60b70230b7de0f463e73da8cdff21190ab6ef92d3206d009dc",
+  "original_tested_zip_sha256": "6bdedabff95caeece7bd2715dc586583ddcfa3997ba831dc97d3fdbb6e7bd5bc",
+  "all_nine_file_hashes_match_tested_release": true,
+  "files": [
+    {
+      "path": "Install.cmd",
+      "bytes": 178,
+      "sha256": "bc4cd9285cb30a383893e09d5d220bf37c395f08af5947876033145b4eceb718"
+    },
+    {
+      "path": "Uninstall.cmd",
+      "bytes": 180,
+      "sha256": "5091d0c4ffc966c468217b3f426467cd67ec9d87135c7bd7bf08aedf6f2714e7"
+    },
+    {
+      "path": "Core/manifest.json",
+      "bytes": 2744,
+      "sha256": "1be8a849582dd9842f42144b9f58e63f07071d5f71bf088a326fc14cffa197b4"
+    },
+    {
+      "path": "Core/P5SPatch.exe",
+      "bytes": 24576,
+      "sha256": "78bc335836246d199f2cfd8d8cd361241adef08f91ad9e9bd9c33cf02cd0b0de"
+    },
+    {
+      "path": "Core/P5SPatch.exe.config",
+      "bytes": 160,
+      "sha256": "3c751794737ca93b756d36c0d08f9693b281c1844be4e74da18901c9fce132e3"
+    },
+    {
+      "path": "Core/patches/00.p5sd.gz",
+      "bytes": 137,
+      "sha256": "10d740944300a63c241abee297e92e45822e867ef56bedd6f220ca41931ea90c",
+      "compression": "gzip",
+      "expanded_bytes": 167,
+      "expanded_sha256": "cc95daf9f534b0595e0a398d445a397ffaa12878258937b25a8dcee6b146edcb",
+      "format_magic": "P5SDLT1 NUL",
+      "content": "Binary XOR difference records; not executable code"
+    },
+    {
+      "path": "Core/patches/01.p5sd.gz",
+      "bytes": 14576901,
+      "sha256": "e642911afbfb3f966aa2f5921c887138cdf1b05dbfb2f843a33cab11d287715f",
+      "compression": "gzip",
+      "expanded_bytes": 14577740,
+      "expanded_sha256": "af20d2422f8bc9ac29a6f930b90e745591ca8d1388bfb2fe372a4163298fea74",
+      "format_magic": "P5SDLT1 NUL",
+      "content": "Binary XOR difference records; not executable code"
+    },
+    {
+      "path": "Core/patches/02.p5sd.gz",
+      "bytes": 3522733,
+      "sha256": "108ebd9919c81326575de7920d5230240e1706587fe3439a237dbadf502ee7f3",
+      "compression": "gzip",
+      "expanded_bytes": 3567307,
+      "expanded_sha256": "229219fe1a326afa99b6ae589d96d2ef34be7c7b6d898340c2ea9af5a2adaf39",
+      "format_magic": "P5SDLT1 NUL",
+      "content": "Binary XOR difference records; not executable code"
+    },
+    {
+      "path": "Core/patches/03.p5sd.gz",
+      "bytes": 32370,
+      "sha256": "b33200133e71e05942024b3e52e928da0a8b5c26f8d9af24ab76147351f0a7a8",
+      "compression": "gzip",
+      "expanded_bytes": 1577531,
+      "expanded_sha256": "d6e17153a32a44863c1c47752eb091dc3f03f0afc8db36948e18011087c200c9",
+      "format_magic": "P5SDLT1 NUL",
+      "content": "Binary XOR difference records; not executable code"
+    }
+  ],
+  "source_sha256": "0da3998d00067ed367d86cfe34a473f3848cecef71b2966c4cba79b62bdda692"
+}

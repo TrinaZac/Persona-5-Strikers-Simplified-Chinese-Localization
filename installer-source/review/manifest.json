@@ -1,8 +1,8 @@
 {
   "Format": 1,
   "ModId": "p5s-simplified-chinese",
-  "Version": "1.0.0",
-  "Date": "2026-10-24",
+  "Version": "1.0.1",
+  "Date": "2026-10-30",
   "Game": "Persona 5 Strikers",
   "SteamAppId": 1382330,
   "SteamBuildId": "20427252",
@@ -67,5 +67,5 @@
     }
   ],
   "RequiredFreeBytes": 4733343414,
-  "RuntimeAcceptance": "The author accepted the installed C-weight font and independent daytime star fix on 2026-10-24."
+  "RuntimeAcceptance": "Localization resources unchanged from author-accepted v1.0.0. Installer prerequisites and state handling revised; see validation report."
 }

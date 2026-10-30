@@ -1,3 +1,5 @@
+最新版本：[v1.0.1 下载](https://github.com/TrinaZac/Persona-5-Strikers-Simplified-Chinese-Localization/releases/tag/v1.0.1)
+
 本mod基于Steam ( Build ID: 20427252 )开发，不知道其他版本能不能用。
 
 安装方式：

@@ -1,0 +1,14 @@
+{
+  "characters": 27505,
+  "fonts": [
+    {
+      "font": 4037,
+      "sha256": "4f337b900355c9e19818ab8efdba53411d60ae0be5ff9585c5917189deed3b0c"
+    },
+    {
+      "font": 17495,
+      "sha256": "183ba2015e468ea331c847de0791bfa3d103dccacff92527fadb90c1bdda7569"
+    }
+  ],
+  "sha256": "7bd4f1029445baf4502cb0f609507fdd8c72f4e2d850ccb1172d9dfa2123b238"
+}

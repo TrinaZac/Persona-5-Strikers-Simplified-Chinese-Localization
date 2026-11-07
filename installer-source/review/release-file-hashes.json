@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "release_zip": "P5S-Simplified-Chinese-v1.1.0.zip",
-  "release_zip_sha256": "c1c407e4dcde1bcb890990811094f1ffa7dbb4eb2046ae8e008e0b939d0de84f",
-  "bytes": 61040480,
+  "release_zip_sha256": "c080e5337826adf4653f0678dc43960815b2b9e8ffa8e7ad21ac9265a82b3063",
+  "bytes": 61040541,
   "manifest_sha256": "d272dc3a267d98ba0d6a8228da31177f8276b4bd7031bc8dfde209fb1ad75ffe",
   "resources": {
     "data/motor_rsc/RRPreview.rdb": {

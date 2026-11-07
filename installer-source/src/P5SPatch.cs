@@ -245,7 +245,7 @@ public static class P5SPatch {
         State state=Json.Deserialize<State>(File.ReadAllText(StatePath,Encoding.UTF8));
         if(state==null || state.ModId!=M.ModId)throw new Exception("安装记录无法识别，请保留原记录。");
         if(state.Version!=M.Version || state.ManifestSHA256!=ExpectedManifest) {
-            if(state.Status=="Uninstalled" && state.Transaction==null)return null;
+            if(state.Transaction==null && !IsPending(state) && M.Files.All(file=>ResourceState(file)=="Original"))return null;
             throw new Exception("请先使用旧版汉化包的 Uninstall.cmd 卸载旧版，再运行新版 Install.cmd。");
         }
         if(!new[] {"Installed","Uninstalled","Preparing","Committing","Uninstalling","RecoveryRequired","Recovered"}.Contains(state.Status))throw new Exception("安装记录状态无法识别。");

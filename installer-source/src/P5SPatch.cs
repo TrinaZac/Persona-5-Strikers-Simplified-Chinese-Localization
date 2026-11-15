@@ -593,7 +593,12 @@ public static class P5SPatch {
         foreach(string[] pair in new[] {new[] {"BytesToDownload","BytesDownloaded"},new[] {"BytesToStage","BytesStaged"}}) {
             long total,done;if(Int64.TryParse(AcfValue(text,pair[0]),out total) && Int64.TryParse(AcfValue(text,pair[1]),out done) && total>done)busy=true;
         }
-        if(!String.IsNullOrEmpty(language) && !String.IsNullOrEmpty(active) && !language.Equals(active,StringComparison.OrdinalIgnoreCase))busy=true;
+        // MountedConfig is metadata, not proof that a language download is pending.
+        // With all languages in the installed depots, it can still name the default
+        // language. Keep real Steam task checks above and validate the resource
+        // regions below instead of rejecting a fully installed game on this hint.
+        if(!String.IsNullOrEmpty(language) && !String.IsNullOrEmpty(active) && !language.Equals(active,StringComparison.OrdinalIgnoreCase))
+            Console.WriteLine("语言记录提示：Steam 已选择“"+LanguageLabel(language)+"”，已装载语言记录为“"+LanguageLabel(active)+"”。该记录差异不单独阻止操作，将继续校验实际游戏资源。");
         if(busy && action!="check")throw new Exception("STEAM_NOT_READY：Steam 的下载、更新或语言切换尚未完成。请等待 Steam 完成任务，再运行安装或卸载。\n当前 Steam 状态："+(flags??"未知")+"；已装载语言："+LanguageLabel(active)+"。本次尚未写入游戏文件。");
         if(busy) {PrerequisitesReady=false;Console.WriteLine("STEAM_NOT_READY：Steam 安装状态尚未就绪，此次仅作只读检查。");}
         string build=AcfValue(text,"buildid");Console.WriteLine("Steam Build："+(build??"未知"));

@@ -1,9 +1,24 @@
 {
   "version": "1.1.0",
-  "release_zip": "P5S-Simplified-Chinese-v1.1.0.zip",
-  "release_zip_sha256": "c080e5337826adf4653f0678dc43960815b2b9e8ffa8e7ad21ac9265a82b3063",
-  "bytes": 61040541,
+  "zip": "E:\\Codex Project\\P5S\\releases\\v1.1.0-steamcheck-fix-20261115\\P5S-Simplified-Chinese-v1.1.0.zip",
+  "bytes": 61041538,
+  "sha256": "b66e2b84ed8d122c74307cfba4266cfa40f8a52efd5eb2c79b8b7b225d39d1f2",
   "manifest_sha256": "d272dc3a267d98ba0d6a8228da31177f8276b4bd7031bc8dfde209fb1ad75ffe",
+  "archive_files": [
+    "P5S-Simplified-Chinese-v1.1.0/Core/components/dinput8.dll",
+    "P5S-Simplified-Chinese-v1.1.0/Core/components/LICENSE.txt",
+    "P5S-Simplified-Chinese-v1.1.0/Core/components/P5SUnicodeInput.asi",
+    "P5S-Simplified-Chinese-v1.1.0/Core/components/UltimateASILoader_LICENSE.md",
+    "P5S-Simplified-Chinese-v1.1.0/Core/manifest.json",
+    "P5S-Simplified-Chinese-v1.1.0/Core/P5SPatch.exe",
+    "P5S-Simplified-Chinese-v1.1.0/Core/P5SPatch.exe.config",
+    "P5S-Simplified-Chinese-v1.1.0/Core/patches/00.p5sc.gz",
+    "P5S-Simplified-Chinese-v1.1.0/Core/patches/01.p5sc.gz",
+    "P5S-Simplified-Chinese-v1.1.0/Core/patches/02.p5sc.gz",
+    "P5S-Simplified-Chinese-v1.1.0/Core/patches/03.p5sc.gz",
+    "P5S-Simplified-Chinese-v1.1.0/Install.cmd",
+    "P5S-Simplified-Chinese-v1.1.0/Uninstall.cmd"
+  ],
   "resources": {
     "data/motor_rsc/RRPreview.rdb": {
       "before": "c4abb936a4ebaf1482fec63b61d8aee8572874d1668cef82487cea28fa71533f",
@@ -26,5 +41,8 @@
       "records": 344
     }
   },
-  "native_component_sha256": "53a800a112f2f9f6dbde6434064c331a2117c1c7fbf4467e82d4d4a13d0cde9b"
+  "native_component_sha256": "53a800a112f2f9f6dbde6434064c331a2117c1c7fbf4467e82d4d4a13d0cde9b",
+  "supported_hanzi": 27505,
+  "revision": "steam-language-preflight-20261115",
+  "installer_sha256": "b8036948859eda67ae442a9f4a30c0740225cc71a71d70f419db73a0c4668041"
 }
